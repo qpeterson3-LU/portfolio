@@ -63,9 +63,16 @@ const Navbar = () => {
           <IconButton onClick={scrollToPortfolio}>Portfolio</IconButton>
 
           {/* https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view */}
-          <IconButton onClick={() => {
-              window.open("https://docs.google.com/document/d/1_Q9wbUfKEOUtKrsrXLKS3OPrGnDHHKxDm1rOKfmKx1o/edit?usp=sharing", "_blank");
-            }}>Resume</IconButton>
+          <IconButton
+            onClick={() => {
+              window.open(
+                "https://docs.google.com/document/d/e/2PACX-1vRGrNiyWrvscfVoO7fRWY576JtVz-bkXCAz4TbBN3-lCpA0orenplWoL28DhXlL7tgJBZPdWPuVKVjM/pub",
+                "_blank"
+              );
+            }}
+          >
+            Resume
+          </IconButton>
 
           <IconButton
             onClick={() => {
@@ -123,9 +130,16 @@ const Navbar = () => {
             gap="3rem"
           >
             <IconButton onClick={scrollToPortfolio}>Portfolio</IconButton>
-            <IconButton onClick={() => {
-              window.open("https://docs.google.com/document/d/1_Q9wbUfKEOUtKrsrXLKS3OPrGnDHHKxDm1rOKfmKx1o/edit?usp=sharing", "_blank");
-            }}>Resume</IconButton>
+            <IconButton
+              onClick={() => {
+                window.open(
+                  "https://docs.google.com/document/d/e/2PACX-1vRGrNiyWrvscfVoO7fRWY576JtVz-bkXCAz4TbBN3-lCpA0orenplWoL28DhXlL7tgJBZPdWPuVKVjM/pub",
+                  "_blank"
+                );
+              }}
+            >
+              Resume
+            </IconButton>
 
             <IconButton
               onClick={() => {
